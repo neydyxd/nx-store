@@ -1,0 +1,8 @@
+{
+  "name": "bye",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/bye/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
