@@ -1,5 +1,4 @@
-import {ButtonComponent} from "@stores/shared-components"
-import {CheckboxComponent} from "@stores/shared-components"
+import {CheckboxComponent, ButtonComponent} from "@stores/shared-ui"
 
 export function App() {
   return (
