@@ -1,7 +1,5 @@
-import { colors } from '@mui/material';
-import SimpleTable from '../../components/organisms/table/table';
 import Main from '../../components/templates/main/main';
-import { DataGrid } from '@mui/x-data-grid';
+import Table from '../../components/atoms/table/table';
 
 const columns = [
   { field: 'id', headerName: 'ID'},
@@ -38,16 +36,7 @@ const rows = [
 const MainPage = () => {
   const mainContent = (
     <div>
-      <DataGrid
-        rows={rows}
-        columns={columns.map((column) => ({ ...column, flex: 1 }))}
-        disableColumnMenu
-        autoHeight
-        hideFooter
-        sx={{
-          backgroundColor: 'white'
-        }}
-      />
+      <Table rows={rows} columns={columns} />
     </div>
   );
 
